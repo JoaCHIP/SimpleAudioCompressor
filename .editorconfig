@@ -1,0 +1,19 @@
+[*]
+end_of_line = lf
+indent_style = tab
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+charset = utf-8
+
+[*.{php,js,pl,c,cpp,h}]
+indent_style = tab
+indent_size = 4
+indent_brace_style = Allman
+curly_bracket_next_line = true
+
+[*.{config,config.dist,xml,xsd,xslt,wxs}]
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
